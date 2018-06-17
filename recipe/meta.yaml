@@ -12,14 +12,15 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - unzip      # [not win]
     - m2-unzip   # [win]
   run:
-    - openjdk
+    # https://github.com/conda-forge/jmol-feedstock/issues/1
+    - openjdk >8.0.121
 
 test:
   commands:
