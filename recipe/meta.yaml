@@ -1,7 +1,7 @@
 {% set name = "Jmol" %}
-{% set version = "14.29.15" %}
+{% set version = "14.30.0" %}
 {% set majmin = '.'.join(version.split('.')[:2]) %}
-{% set sha256 = "e71df634776ade7c57f58986affd2b68e0d0d61bcda7b031e0b51da9d4aa81e1" %}
+{% set sha256 = "caeef497fb24861dacc2d7d8c08df9f9f1e2a5e23421561061fbf574dbf4173c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
@@ -31,7 +31,7 @@ about:
   home: http://www.jmol.org
   license: LGPL
   license_file: LICENSE.txt
-  summary: 'Jmol is an open-source molecule viewer and editor'
+  summary: Jmol is an open-source molecule viewer and editor
   description: |
     Jmol is a free, open source molecule viewer for students, educators, and
     researchers in chemistry, biochemistry, physics, and materials science.
