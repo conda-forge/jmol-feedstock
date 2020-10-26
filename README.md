@@ -5,9 +5,13 @@ Home: http://www.jmol.org
 
 Package license: LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jmol-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jmol is an open-source molecule viewer and editor
+
+Development: https://github.com/BobHanson/Jmol-SwingJS
+
+Documentation: http://jmol.sourceforge.net/#Learn%20to%20use%20Jmol
 
 Jmol is a free, open source molecule viewer for students, educators, and
 researchers in chemistry, biochemistry, physics, and materials science.
@@ -181,7 +185,4 @@ Feedstock Maintainers
 
 * [@isuruf](https://github.com/isuruf/)
 * [@saraedum](https://github.com/saraedum/)
-
-
-<!-- dummy commit to enable rerendering -->
 
