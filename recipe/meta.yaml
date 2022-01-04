@@ -1,7 +1,7 @@
 {% set name = "Jmol" %}
-{% set version = "14.31.14" %}
+{% set version = "14.32.6" %}
 {% set majmin = '.'.join(version.split('.')[:2]) %}
-{% set sha256 = "d56a592dd105dcebd948edabb2dabb95cf9f936589130d5325edf5627124bee2" %}
+{% set sha256 = "6fd13f2097ea780f2b05242881bfd9541316df2f5b7367418ff0489741d6151f" %}
 
 package:
   name: {{ name|lower }}
